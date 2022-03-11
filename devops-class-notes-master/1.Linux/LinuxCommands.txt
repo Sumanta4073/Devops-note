@@ -1,0 +1,96 @@
+1. VM Creation
+
+2. Quick walk-through of Ubuntu OS
+
+Linux Basic Commands:
+-----------------------
+Reference:
+- https://www.hostinger.in/tutorials/linux-commands
+- https://www.guru99.com/unix-linux-tutorial.html
+- https://www.tutorialspoint.com/unix/index.htm
+
+
+3. Shell
+ps -ef for all process detail
+top -process+cpu usage and load average
+
+unzip a tar file--tar -zxvf filename
+
+
+pwd- present working Dir
+
+cd- change Dir
+
+ls-list , ls -l- long list ,ls -a -display hidden files,ls -R-dislplay Dir and sub Dir
+
+Shell/Terminal
+
+cat -displays content of file
+
+cp-copy 
+
+mv-moving a file, e.g:- mv filename location,for renaming a file :-mv file1 new_file name 
+
+mkdir- make Dir
+
+rmdir- for removing Dir
+
+rm- for removing file
+
+touch- for creating file
+
+Man- manual
+
+uname -os related search/e.g :-for kernal version ,which os etc
+
+
+PERMISSION MODIFICATION
+
+read -r
+write-w
+execute -x
+
+chmod permission_type file_name ,e.g:- chmod o+x sample.txt
+
+Operator	Description
++             Adds a permission to a file or directory
+
+–             Removes the permission
+
+=             Sets the permission and overrides the permissions set earlier.
+
+The various owners are represented as –
+
+User Denotations
+u----user/owner
+
+g----group
+
+o----other
+
+a----all
+
+CHANGING OWNERSHIP
+
+chown user filename
+
+chown user:group filename --if want to change user and group both
+
+chgrp group_name filename --if changing only group name
+
+
+
+----
+AWK
+how do you print a particular line number using awk.
+----
+
+
+Pipe
+apt-get- for installing packages and updating
+Process
+push a process in backgroud mode
+
+
+
+
